@@ -1,0 +1,137 @@
+/* body */
+body {
+    background: #18191A;
+    color: #e4e6eb;
+}
+
+/* header */
+.header {
+    background: #242526;
+    border: none;
+}
+
+header > a.logo {
+
+    color: #e4e6eb;
+}
+
+header > a.logo:hover {
+    color: #B9FBBB;
+}
+
+/* Header top-menu (sisi */
+ul.top-menu > li > .logout {
+    background: #b0b3b8 !important;
+    color: #18191A !important;
+    border: none !important;
+}
+
+/* sidebar */
+.sidebar-toggle-box {
+    color: #e4e6eb;
+}
+
+#sidebar {
+    background: #3a3b3c;
+    border: none;
+}
+
+/* sidebar menu */
+ul.sidebar-menu li a:hover,
+ul.sidebar-menu li a:active {
+    background: #242526 !important;
+    color: #fff;
+}
+
+/* footer */
+.site-footer {
+    background: #242526;
+}
+
+/* kuliah >> diskusi mengganti border yang mengitari kotak komentar */
+
+#dvNewMat {
+    border: 2px solid #3a3b3c!important;
+}
+
+/* card paling bawah */
+.room-box {
+    background: #242526;
+    border: none;
+}
+
+.room-box:hover {
+    background: #2f2f30;
+}
+
+/* card level kedua */
+.form-panel {
+    background: #3a3b3c;
+    box-shadow: none;
+}
+
+/* judul matkul */
+.form-panel h4 {
+    color: #B9FBBB;
+}
+
+/* judul pada kuliah > diskusi */
+.room-desk h4 {
+    color: #B9FBBB;
+}
+
+/* mengganti style button */
+.style-form .btn {
+    background: #b0b3b8;
+    border: none;
+    color: #18191A;
+}
+
+.style-form .btn:hover {
+    background: #242526;
+    border: none;
+    color: #e4e6eb;
+}
+
+/* button 'back' pada kuliah > diskusi */
+button.btn-warning {
+    background: #b0b3b8;
+    border: none;
+    color: #18191A;
+}
+
+button.btn-warning:hover {
+    background: #242526;
+    border: none;
+    color: #e4e6eb;
+}
+
+/* link pada card */
+.form-group a:link {
+    color: #B9FBBB;
+}
+
+.form-group a:hover {
+    color: #b0b3b8;
+}
+
+.form-group a:visited {
+    color: #b0b3b8;
+}
+
+/* border didalam card form-panel */
+.form-horizontal.style-form .form-group {
+    border-bottom: 1px solid #242526;
+}
+
+/* border yang mengitari judul matkul */
+form.style-form div:first-child {
+    border: none !important;
+    margin-bottom: 10px;
+}
+
+/* kuliah > diskusi, menghapus bg & border pada judul matkul */
+form.form-horizontal div[style] {
+    background: none !important;
+    border: none !important;
+}
