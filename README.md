@@ -25,6 +25,9 @@
 ## Compatibility
 This userstyle is compatible with all major browsers (specifically, supporting the [CSS `filter` property](https://developer.mozilla.org/en-US/docs/Web/CSS/filter))
 
+## To-do  
+menambah darkmode untuk keseluruhan website (https://aka.unsiq.ac.id)
+
 ## Lisensi
 [MIT License](https://github.com/ahmaruff/akaunsiq-darkmode/blob/main/LICENSE)
 
