@@ -1,8 +1,82 @@
-/* body */
+/* GLOBAL */
 body {
     background: #18191A;
     color: #e4e6eb;
 }
+
+/* ---------------------------------------------------- */
+
+/* LOGIN */
+
+form.form-1{ 
+		background: #3a3b3c;
+		box-shadow: 3px 3px #242526;
+}
+
+.form-1 .field input{
+	background: #b0b3b8 !important;
+	box-shadow: 2px 2px #242526 !important;
+	text-shadow: none !important;
+}
+
+.form-1 input::placeholder, .form-1 input:enabled{
+color: #3a3b3c !important;
+}
+.form-1 .field i{
+ color: #3a3b3c !important;
+}
+
+.form-1 .submit{
+	 	background: #242526 !important;
+    border: none;
+}
+
+.form-1 p.submit:after{
+	 	background: #242526 !important;
+    border: none;
+		box-shadow: none;
+}
+
+button[type=submit] {
+background: #B9FBBB !important;
+}
+
+button:hover, button i.icon-arrow-right:hover{
+background: #242526 !important;
+color: #B9FBBB !important;
+}
+
+button[type=submit] i.icon-arrow-right{
+	color: #242526;
+}
+
+marquee {
+			padding: 5px;
+			background: none;
+	    border: none !important;
+}
+
+marquee h3 font{
+color: #e4e6eb !important;
+}
+
+a {
+color: #B9FBBB !important;
+}
+
+a:hover{
+color: #e4e6eb !important;
+padding: 5px !important;
+}
+
+hr {
+border: 1px solid #242526;
+}
+
+/* ---------------------------------------------------- */
+
+/* KULIAH */
+/* aka.unsiq.ac.id/kuliah/ */
 
 /* header */
 .header {
